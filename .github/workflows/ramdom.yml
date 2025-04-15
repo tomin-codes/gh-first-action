@@ -1,0 +1,10 @@
+name: random workflow
+on: workflow_dispatch
+jobs:
+  work1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print greeting
+        run: echo "hello boss"
+      - name: Print goodbye
+        run: echo "good bye!"

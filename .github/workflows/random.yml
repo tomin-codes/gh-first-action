@@ -8,3 +8,7 @@ jobs:
         run: echo "hello boss"
       - name: Print goodbye
         run: echo "good bye!"
+      - name: Print multiline message
+        run: |
+          echo "this is a multiline "
+          echo "message and this is the EOM"
